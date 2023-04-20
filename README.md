@@ -43,8 +43,7 @@
                     }
                     com isso será modelado mais valores dentro de uma grid
                     
-                        
-}   
+                    
 -----------------------EXEMPLO DE ULTILIZAÇÃO DO COMPONENTE--------------------
 
 procedure TForm1.Button1Click(Sender: TObject);
@@ -58,6 +57,10 @@ begin
 end;
 
 -------------------------------------------------------------------------------
+                    
+                        
+}   
+
 
 
 
