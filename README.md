@@ -45,7 +45,7 @@
                     
                         
 }   
-######################EXEMPLO DE ULTILIZAÇÃO DO COMPONENTE#####################
+-----------------------EXEMPLO DE ULTILIZAÇÃO DO COMPONENTE--------------------
 
 procedure TForm1.Button1Click(Sender: TObject);
 var
@@ -57,7 +57,7 @@ begin
   DBGrid1.DataSource:=VComponent;
 end;
 
-###############################################################################
+-------------------------------------------------------------------------------
 
 
 
