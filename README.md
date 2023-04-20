@@ -2,7 +2,13 @@
                         DESENVOLVIMENTO RODRIGO RAFAEL
                         DATA ULTIMA ATUALIZAÇÃO 20/04/2023
                         PROJETO OPEN SOURCE;
-
+                        
+                        
+                        
+                        
+                    O intuito do componente é fazer com que pegue arquivos .json e coloque diretamente em uma grid 
+                    projeto 100% simples e com Biblioteca nativas do lazarus 
+                        
 
                     só é aceito OBJETO JSON BASICO SEGUE EXEMPLO ABAIXO
 
@@ -36,4 +42,10 @@
                       "Active": "False"
                     }
                     com isso será modelado mais valores dentro de uma grid
+                    
+                    
+                    
+                    
+                    
+                    
 }   
