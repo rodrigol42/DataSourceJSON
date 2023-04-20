@@ -44,19 +44,23 @@
                     com isso será modelado mais valores dentro de uma grid
                     
                     
------------------------EXEMPLO DE ULTILIZAÇÃO DO COMPONENTE--------------------
+                  -----------------------EXEMPLO DE ULTILIZAÇÃO DO COMPONENTE--------------------
 
-procedure TForm1.Button1Click(Sender: TObject);
-var
-  VComponent : TJSONSource;
-begin      
-  VComponent := TJSONSource.Create(nil)  
-  VComponent.LocalArquivo := 'C:\arquivo.json';
-  VComponent.Ativa:= True;
-  DBGrid1.DataSource:=VComponent;
-end;
+                  procedure TForm1.Button1Click(Sender: TObject);
+                  var
+                    VComponent : TJSONSource;
+                  begin      
+                    VComponent := TJSONSource.Create(nil)  
+                    
+                    VComponent.LocalArquivo := 'C:\arquivo.json';
+                    
+                    VComponent.Ativa:= True;
+                    
+                    DBGrid1.DataSource:=VComponent;
+                    
+                  end;
 
--------------------------------------------------------------------------------
+                  -------------------------------------------------------------------------------
                     
                         
 }   
